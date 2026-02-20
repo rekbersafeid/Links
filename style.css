@@ -120,7 +120,7 @@ body {
   z-index: 5;
   max-width: 420px;
   margin: auto;
-  padding: 34px 16px 44px;
+  padding: 16px 16px 44px;
 }
 
 /* ===============================
@@ -313,6 +313,7 @@ body {
   .hero-title { font-size: 22px; }
   .hero-logo { width: 100px; height: 100px; }
 }
+
 
 
 
