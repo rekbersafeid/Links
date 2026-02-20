@@ -260,7 +260,7 @@ body {
 .links{
   display:flex;
   flex-direction:column;
-  gap:22px;
+  gap:18px;
 }
 
 .link:hover{
@@ -313,6 +313,7 @@ body {
   .hero-title { font-size: 22px; }
   .hero-logo { width: 100px; height: 100px; }
 }
+
 
 
 
