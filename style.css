@@ -171,7 +171,7 @@ body {
   font-family: 'Orbitron', sans-serif;
   font-size: 26px;
   letter-spacing: 1.5px;
-  margin: 18px 0 6px;
+  margin: 10px 0 4px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -313,6 +313,7 @@ body {
   .hero-title { font-size: 22px; }
   .hero-logo { width: 100px; height: 100px; }
 }
+
 
 
 
