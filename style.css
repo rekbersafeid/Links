@@ -237,35 +237,42 @@ body {
 /* ===============================
    LINKS
 ================================ */
-.links {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
+.link{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start; /* icon kiri, text rapi */
+  gap:12px;
 
-.link {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 16px;
-  border-radius: 16px;
-  text-decoration: none;
-  color: #fff;
-  background: linear-gradient(180deg, rgba(0,31,77,.55), rgba(0,0,0,.70));
-  border: 1px solid var(--border);
-  box-shadow: 0 0 22px rgba(0,240,255,.22);
-  transition: transform .25s, box-shadow .25s;
+  padding:14px 16px;
+  border-radius:18px;
+
+  text-decoration:none;
+  color:#fff;
+  font-weight:800;
+
+  border:2px solid rgba(0,240,255,.85);
+  background: rgba(0,0,0,.55);
+
+  box-shadow: 0 0 18px rgba(0,240,255,.45);
+  transition: .2s ease;
   backdrop-filter: blur(4px);
 }
 
-.link:hover {
-  transform: translateY(-3px) scale(1.01);
-  box-shadow: 0 0 42px rgba(0,240,255,.45);
+.link:hover{
+  transform:none;              /* biar kayak lama */
+  background:#001f4d;          /* hover solid biru */
+  box-shadow: 0 0 26px rgba(0,240,255,.55);
 }
 
-.link.primary {
-  border: 2px solid var(--red);
-  box-shadow: 0 0 50px rgba(0,240,255,.60);
+/* tombol pertama highlight */
+.link.primary{
+  border:2px solid rgba(0,240,255,1);
+  box-shadow: 0 0 26px rgba(0,240,255,.65);
+}
+
+.link span, .link p, .link .text{
+  flex:1;
+  text-align:center;
 }
 
 .link img {
@@ -297,4 +304,5 @@ body {
   .hero-title { font-size: 22px; }
   .hero-logo { width: 100px; height: 100px; }
 }
+
 
