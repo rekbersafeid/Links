@@ -242,7 +242,6 @@ body {
   align-items:center;
   justify-content:flex-start;
   gap:12px;
-
   padding:18px 20px;
   border-radius:18px;
 
@@ -271,8 +270,11 @@ body {
 }
 
 .link span, .link p, .link .text{
-  flex:0;
+  flex:1;
   text-align:left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .link img {
@@ -304,6 +306,7 @@ body {
   .hero-title { font-size: 22px; }
   .hero-logo { width: 100px; height: 100px; }
 }
+
 
 
 
