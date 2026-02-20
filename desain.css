@@ -33,7 +33,7 @@ html, body {
   content: "";
   position: absolute;
   inset: 0;
-  box-shadow: inset 0 0 90px rgba(255,0,0,0.35);
+  box-shadow: inset 0 0 90px rgba(0,240,255,0.22);
   pointer-events: none;
 }
 
@@ -166,11 +166,11 @@ html, body {
   background: rgba(0,0,0,.55);
   border-radius: 6px;
   padding: 3px;
-  border: 1px solid rgba(255,0,0,.25);
+  border: 1px solid rgba(0,240,255,.35);
 }
 
 .row.head {
-  background: rgba(255,0,0,.2);
+  background: rgba(0,240,255,.12);
   font-size: 11px;
   font-weight: bold;
   text-align: center;
@@ -199,15 +199,15 @@ html, body {
 
 /* BEST SELLER */
 .row.best {
-  border-color: gold;
+  border-color: rgba(0,240,255,.7);
 }
 
 .badge {
   position: absolute;
   top: -6px;
   right: -6px;
-  background: gold;
-  color: #000;
+  background: #00f0ff;
+  color: #00131b;
   font-size: 9px;
   font-weight: bold;
   padding: 2px 5px;
@@ -239,3 +239,4 @@ html, body {
   font-weight: bold;
   letter-spacing: 1px;
 }
+
