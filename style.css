@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Inter:wght@400;600&display=swap');
 
 :root {
-  --red: #ff1e1e;
-  --dark-red: #7a0000;
+  --red: #00f0ff;
+  --dark-red: #001f4d;
   --black: #050000;
-  --border: rgba(255, 30, 30, 0.35);
-  --glow: rgba(255, 30, 30, 0.6);
+  --border: rgba(0, 240, 255, 0.35);
+  --glow: rgba(0, 240, 255, 0.6);
 }
 
 /* ===============================
@@ -52,8 +52,8 @@ body {
   inset: 0;
   z-index: 1;
   background:
-    radial-gradient(circle at top, rgba(255,0,0,.25), transparent 55%),
-    linear-gradient(180deg, rgba(0,0,0,.65), rgba(80,0,0,.85));
+    radial-gradient(circle at top, rgba(0,240,255,.18), transparent 55%),
+    linear-gradient(180deg, rgba(0,0,0,.65), rgba(0,20,55,.85));
 }
 
 /* 3) GRID CYBER */
@@ -216,7 +216,7 @@ body {
   padding: 6px 10px;
   border: 1px solid var(--border);
   border-radius: 999px;
-  background: rgba(20,0,0,.6);
+  background: rgba(0,10,25,.55);
 }
 
 /* ===============================
@@ -251,21 +251,21 @@ body {
   border-radius: 16px;
   text-decoration: none;
   color: #fff;
-  background: linear-gradient(180deg, #1a0000, #0c0000);
+  background: linear-gradient(180deg, rgba(0,31,77,.55), rgba(0,0,0,.70));
   border: 1px solid var(--border);
-  box-shadow: 0 0 22px rgba(255,0,0,.25);
+  box-shadow: 0 0 22px rgba(0,240,255,.22);
   transition: transform .25s, box-shadow .25s;
   backdrop-filter: blur(4px);
 }
 
 .link:hover {
   transform: translateY(-3px) scale(1.01);
-  box-shadow: 0 0 42px rgba(255,0,0,.55);
+  box-shadow: 0 0 42px rgba(0,240,255,.45);
 }
 
 .link.primary {
   border: 2px solid var(--red);
-  box-shadow: 0 0 50px rgba(255,0,0,.7);
+  box-shadow: 0 0 50px rgba(0,240,255,.60);
 }
 
 .link img {
@@ -297,3 +297,4 @@ body {
   .hero-title { font-size: 22px; }
   .hero-logo { width: 100px; height: 100px; }
 }
+
