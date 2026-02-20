@@ -180,13 +180,13 @@ body {
 
 /* VERIFIED BADGE (IMG SVG) */
 .verified-ig {
-  width: 31px;
-  height: 31px;
+  width: 28px;
+  height: 28px;
   margin-top: 2px;
   flex-shrink: 0;
   filter:
-    drop-shadow(0 0 6px rgba(29,161,242,.9))
-    drop-shadow(0 0 12px rgba(29,161,242,.6));
+    drop-shadow(0 0 3px rgba(0,240,255,.45))
+    drop-shadow(0 0 6px rgba(0,240,255,.25));
 }
 
 .hero-tag {
@@ -330,6 +330,7 @@ body {
 .badges{
   margin-bottom: 4px;
 }
+
 
 
 
