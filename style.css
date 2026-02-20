@@ -175,7 +175,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 4px;
 }
 
 /* VERIFIED BADGE (IMG SVG) */
@@ -330,6 +330,7 @@ body {
 .badges{
   margin-bottom: 4px;
 }
+
 
 
 
