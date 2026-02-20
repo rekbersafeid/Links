@@ -315,6 +315,21 @@ body {
 }
 
 
+.hero-title{
+  margin: 10px 0 4px;
+}
+
+.hero-tag{
+  margin-bottom: 4px;
+}
+
+.hero-desc{
+  margin-bottom: 6px;
+}
+
+.badges{
+  margin-bottom: 12px;
+}
 
 
 
