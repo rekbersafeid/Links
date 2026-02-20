@@ -241,7 +241,7 @@ body {
   display:flex;
   align-items:center;
   justify-content:flex-start;
-  gap:12px;
+  gap:18px;
   padding:18px 20px;
   border-radius:18px;
 
@@ -282,9 +282,6 @@ body {
   height: 26px;
 }
 
-.links{
-  gap:18px;
-}
 
 /* ===============================
    NOTICE & FOOTER
@@ -310,6 +307,7 @@ body {
   .hero-title { font-size: 22px; }
   .hero-logo { width: 100px; height: 100px; }
 }
+
 
 
 
