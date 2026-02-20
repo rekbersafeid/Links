@@ -241,7 +241,7 @@ body {
   display:flex;
   align-items:center;
   justify-content:flex-start;
-  gap:18px;
+  gap:14px;
   padding:18px 20px;
   border-radius:18px;
 
@@ -255,6 +255,12 @@ body {
   box-shadow: 0 0 18px rgba(0,240,255,.45);
   transition: .2s ease;
   backdrop-filter: blur(4px);
+}
+
+.links{
+  display:flex;
+  flex-direction:column;
+  gap:22px;
 }
 
 .link:hover{
@@ -307,6 +313,7 @@ body {
   .hero-title { font-size: 22px; }
   .hero-logo { width: 100px; height: 100px; }
 }
+
 
 
 
